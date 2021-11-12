@@ -2,13 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>5. CSS Selectors - HTML, CSS and Git Exercises</title>
+    <title>4. Adding Links and Scripts - HTML, CSS and Git Exercises</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/part1.css" />
-    <link rel="stylesheet" href="/css/message.css" />
-    <link rel="stylesheet" href="/css/message-css-selectors.css" />
-    <link rel="stylesheet" href="message-backgrounds.css" />
+    <link rel="stylesheet" href="missing-styles.css" />
   </head>
 
   <body>
@@ -17,26 +13,27 @@
         <div class="site-header__title">Messages</div>
       </div>
       <div class="messages">
-        <div id="first-message">
+        <div class="message">
           <div class="message__author">Won</div>
           <p class="message__content">Where should we meet later?</p>
           <time class="message__time">7:25pm</time>
         </div>
-        <article>
+        <div class="message">
           <div class="message__author">Luke</div>
           <p class="message__content">
             Let's meet at the iCafe in Merchant City. https://goo.gl/maps/aza4h9nUBhn
           </p>
           <time class="message__time">7:35pm</time>
-        </article>
-        <div class="message--latest">
+        </div>
+        <div class="message">
           <div class="message__author">Won</div>
           <p class="message__content">
-            Ok! https://media.giphy.com/media/l41K4KlVE8dgozf8I/giphy.gif
+            No, I prefer the one on Sauchiehall Street. https://goo.gl/maps/wKDoARcHDp42
           </p>
           <time class="message__time">7:38pm</time>
         </div>
       </div>
     </div>
+    <script src="convertUrls.js"></script>
   </body>
 </html>
