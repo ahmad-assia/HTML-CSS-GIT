@@ -1,5 +1,22 @@
-.countries {
-  display: flex;
+.countries--second {
+  align-items: center;
 }
-
-/* Add your own CSS code below */
+.countries--second .country--ethiopia {
+  align-self: flex-end;
+}
+.countries--third {
+  align-items: flex-end;
+}
+.countries--third .country--brazil {
+  align-self: flex-start;
+}
+.countries--third .country--uganda {
+  align-self: flex-start;
+}
+.countries--fourth {
+  align-items: flex-start;
+  flex-direction: column;
+}
+.countries--fourth .country--uganda {
+  align-self: center;
+}
